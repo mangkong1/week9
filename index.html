@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>초기 페이지 입니다.</h1>
+    <!-- form태그를 이용해 loginAction.jsp파일을 실행 -->
+    <form action="loginAction.jsp">
+      <input type="text" name="id_value" />
+      <input type="text" name="pw_value" />
+      <!-- 아래 로그인 버튼을 누르면 위의 id_value, pw_value값 반영 -->
+      <input type="submit" value="로그인" />
+    </form>
+    <form action="signupAction.jsp">
+      <input type="text" name="id_value" />
+      <input type="text" name="pw_value" />
+      <input type="text" name="name_value" />
+      <input type="submit" value="회원가입" />
+    </form>
+  </body>
+</html>
